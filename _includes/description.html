@@ -8,20 +8,24 @@
             <!--Create a new div here wrapping the socail media icons-->
             <div>
                 <!--Social media icons list-->
-                <ul>
+                <ul style="list-style:none;
+                display:flex;
+                justify-content:space-evenly;
+                margin:1em 0 0;
+                padding:0;">
                     <!--Represents a social media icon-->
                     <a target="_blank" href= {{item.twitter}}>
                         <!--Replace the text in the list item with the <i> from the font awesome-->
-                        <li>Twitter</li>
+                        <li> <i class="fab fa-twitter"></i> </li>
                     </a>
                     <a target="_blank" href= {{item.linkedin}}>
-                        <li>Linkedin</li>
+                        <li><i class="fab fa-linkedin"></i></li>
                     </a>
                     <a target="_blank" href= {{item.github}}>
-                        <li>Github</li>
+                        <li><i class="fab fa-github"></i></li>
                     </a>
                     <a target="_blank" href= {{item.resume}}>
-                        <li>Resume</li>
+                        <li><i class="fa-solid fa-file"></i></li>
                     </a>
                 </ul>
             </div>
