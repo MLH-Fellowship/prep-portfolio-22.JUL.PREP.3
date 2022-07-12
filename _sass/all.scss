@@ -77,7 +77,22 @@ a {
         color: #404040;
     }
 }
-
+.socialmedia{
+                list-style:none;
+                display:flex;
+                flex-direction: row;
+                margin:1em 0 0;
+                padding:0;
+                justify-content: space-evenly;
+                width: 150px;
+  a{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+}
 .icon {
     width: 70px;
     height: 70px;
