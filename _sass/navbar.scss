@@ -6,6 +6,11 @@
     padding-top: 10px;
 }
 
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
 .nav-content .logo-touch-target {
     display: inline-flex;
     height: 60%;
@@ -15,6 +20,10 @@
 .nav-content .nav-logo {
     height: 60px;
     margin: auto;
+}
+
+.nav-item {
+    margin: 1em;
 }
 
 .nav-logo {
@@ -28,7 +37,7 @@
 }
 
 .nav-content nav {
-    display: block;
+    display: flex;
     width: 100%;
     text-align: right;
     padding-top: 0px;
