@@ -1,5 +1,5 @@
 <h2>Projects</h2>
-<div class="card-container">
+<div class="card-container" id="projects">
     {% for item in site.data.projects %}
     {% if item.page-name %}
     <a href="/projects/{{ item.page-name }}">
@@ -16,4 +16,3 @@
     </a>
     {% endfor %}
   </div>
-  
