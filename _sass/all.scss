@@ -4,6 +4,10 @@
 @import 'profile';
 @import 'page';
 
+* {
+  box-sizing: border-box;
+}
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -30,14 +34,24 @@
 
 
 body {
-    background-color: #f5f5f9;
-    margin-bottom: 50px;
+    transition: background 0.2 linear;
+    background-color:#f5f5f9;
+    margin-bottom:50px;
 }
+
+body.dark {
+  background-color: #292c35;
+}
+
 h2 {
     margin-bottom: 20px;
     margin-top: 20px;
     font-weight: 700;
     text-align: center;
+}
+
+body.dark h2 {
+  color: #fff;
 }
 
 .card {
@@ -53,6 +67,10 @@ h2 {
 
 a {
     color: black;
+}
+
+body.dark a {
+  color: #fff;
 }
 
 .info {
@@ -87,4 +105,49 @@ a {
     img {
         width: 100%;
     }
+}
+
+//dark mode toggle code starts here
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+
+.label {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 5px;
+  position: relative;
+  border-radius: 50px;
+  height:26px;
+  width: 50px;
+  transform: scale(1.25);
+}
+
+.ball {
+
+  background-color:#fff;
+  border-radius:50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
 }
