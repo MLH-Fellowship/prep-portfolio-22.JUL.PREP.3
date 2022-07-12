@@ -8,15 +8,7 @@
         font-weight: 700;
         color: white;
     }
-    
-    img {
-        border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        display: inline;        
-        padding: 20px;
-    }
-    
+        
     .profile-picture {
         margin-bottom: 30px;
         display: flex;
@@ -27,6 +19,10 @@
             flex: 1 0 50%; // 50% basis: 2 columns small screen
             min-width: 100px;
             max-width: 200px;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            display: inline;
+            padding: 20px;   
         }
     }
 }
