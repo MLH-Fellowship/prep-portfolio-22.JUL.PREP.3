@@ -5,6 +5,26 @@
         <div class="info">
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
+            <!--Create a new div here wrapping the socail media icons-->
+            <div>
+                <!--Social media icons list-->
+                <ul>
+                    <!--Represents a social media icon-->
+                    <a target="_blank" href= {{item.twitter}}>
+                        <!--Replace the text in the list item with the <i> from the font awesome-->
+                        <li>Twitter</li>
+                    </a>
+                    <a target="_blank" href= {{item.linkedin}}>
+                        <li>Linkedin</li>
+                    </a>
+                    <a target="_blank" href= {{item.github}}>
+                        <li>Github</li>
+                    </a>
+                    <a target="_blank" href= {{item.resume}}>
+                        <li>Resume</li>
+                    </a>
+                </ul>
+            </div>
         </div>
     </div>
     {% endfor %}
