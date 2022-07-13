@@ -10,7 +10,7 @@
 
     let pins = Array.from(document.querySelectorAll('.pin'));
 
-    pins.forEach((pin) => {
+    pins.forEach((pin) => {        
         // mouseover: change color for now
         pin.addEventListener('mouseover', () => {
             pin.style.fill = PIN_COLOR_HOVER;
