@@ -59,6 +59,14 @@ h2 {
     font-size: 1.2em;
 }
 
+.img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 a {
     color: black;
 }
@@ -85,7 +93,22 @@ a {
         color: #404040;
     }
 }
-
+.socialmedia{
+                list-style:none;
+                display:flex;
+                flex-direction: row;
+                margin:1em 0 0;
+                padding:0;
+                justify-content: space-evenly;
+                width: 150px;
+  a{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+}
 .icon {
     width: 70px;
     height: 70px;
@@ -121,4 +144,12 @@ a {
       margin-right: 5px;
     }
   }
+}
+
+.categories {
+  border: 7px;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+  color: #555555;
+  margin-top:5px;
 }
