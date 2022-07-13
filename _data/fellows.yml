@@ -1,12 +1,28 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Sanjay Singh Rajpoot
+  img: sanjay.jpg
+  location: India
+  university: IET DAVV
+  email: iamsanjayrajpoot@gmail.com
+  twitter:
+  github:
+  linkedin:
+  resume:
+  programming_language: C++
+  interest: writing
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Liuba
+  img: liuba.jpeg
+  location: Budapest, Hungary
+  university: Budapest University of Technology and Economics
+  email: liuba.rukhlina@gmail.com
+  twitter:
+  github: https://github.com/LiubovRukhlina
+  linkedin: https://www.linkedin.com/in/liubov-rukhlina-59577291/
+  resume:
+  programming_language: Python, TypeScript
+  interest: Yoga, Gaming, Music
 
-- name: Aaron
+- name: Himanshu Thakur
   img: aaron.jpg
   location: London, UK
 
