@@ -10,7 +10,7 @@ on:
       - "**.webp"
   push:
     branches:
-      - image-compression
+      - image-compression-test
       paths:
         - "**.jpg"
         - "**.jpeg"
