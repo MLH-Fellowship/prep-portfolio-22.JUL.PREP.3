@@ -1,28 +1,26 @@
 .profile {
     background-color: #133667 !important;
     text-align: center;
-    padding-bottom: 10px;
+    height: 320px;
     margin-bottom: 50px;
     h1 {
         font-size: 50px;
         font-weight: 700;
         color: white;
     }
-        
+    
+    img {
+        border-radius: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;        
+        padding: 20px;
+    }
+    
     .profile-picture {
         margin-bottom: 30px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        img {
-            flex: 1 0 50%; // 50% basis: 2 columns small screen
-            min-width: 100px;
-            max-width: 200px;
-            aspect-ratio: 1/1;
-            border-radius: 50%;
-            display: inline;
-            padding: 20px;   
-        }
+        height: 200px;
     }
 }
