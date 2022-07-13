@@ -14,6 +14,7 @@
         // mouseover: change color for now
         pin.addEventListener('mouseover', () => {
             pin.style.fill = PIN_COLOR_HOVER;
+            console.log(pin.dataset.fellow);
         });
 
         // mouseout: reset hover color
