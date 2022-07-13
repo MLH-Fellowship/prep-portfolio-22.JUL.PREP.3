@@ -59,6 +59,14 @@ h2 {
     font-size: 1.2em;
 }
 
+.img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 a {
     color: black;
 }
@@ -110,4 +118,12 @@ a {
     img {
         width: 100%;
     }
+}
+
+.categories {
+  border: 7px;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+  color: #555555;
+  margin-top:5px;
 }
