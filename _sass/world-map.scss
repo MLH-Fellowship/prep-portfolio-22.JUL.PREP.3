@@ -1,12 +1,10 @@
 .world-map {
-    img {
-        width: 90vw;
+    width: 90%; // resize inline svg here
+    margin: auto;
+    svg {
         display: block;
         margin: auto;
-
+        width: 100%;
+        height: 100%;
     }
-    .pin {
-        fill: purple;
-    }
-
 }
