@@ -13,17 +13,17 @@ layout: default
   </div>
 </div>
 
-<div class="page-content page-container" id="page-content">
+<div class="page-content page-container" id="page-content" style="margin-left: 20rem;">
   <div class="padding">
-    <div class="row container d-flex justify-content-center">
-      <div class="col-xl-6 col-md-12">
+    <div class="row container justify-content-flex-end">
+      <div class="col-xl-8 col-md-20">
         <div class="card user-card-full">
           <div class="row m-l-0 m-r-0">
             <div class="col-sm-4 bg-c-lite-green user-profile">
               <div class="card-block text-center text-white">
                 <div class="m-b-25">
                   <img
-                    src="https://img.icons8.com/bubbles/100/000000/user.png"
+                    src="/assets/img/{{page.img}}"
                     class="img-radius"
                     alt="User-Profile-Image"
                   />
@@ -39,11 +39,11 @@ layout: default
               <div class="card-block">
                 <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Basic</h6>
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-8">
                     <p class="m-b-10 f-w-600">Email</p>
                     <h6 class="text-muted f-w-400">{{page.email}}</h6>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-8">
                     <p class="m-b-10 f-w-600">College</p>
                     <h6 class="text-muted f-w-400">{{ page.university }}</h6>
                   </div>
@@ -56,7 +56,7 @@ layout: default
                     <h6 class="text-muted f-w-400">{{page.programming_language}}</h6>
                   </div>
                 </div>
-                <h6 class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">
+                <h6 class="m-b-15 m-t-40 p-b-5 b-b-default f-w-600">
                   Social Media
                 </h6>
                 <div class="row">
@@ -65,6 +65,12 @@ layout: default
                   </div>
                   <div class="col-sm-6">
                     <a href="{{page.github}}" class="m-b-10 f-w-600"><h6>GitHub</h6></a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="{{page.twitter}}" class="m-b-10 f-w-600"><h6>Twitter</h6></a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="{{page.resume}}" class="m-b-10 f-w-600"><h6>Resume</h6></a>
                   </div>
                 </div>
                 <ul class="social-link list-unstyled m-t-40 m-b-10">

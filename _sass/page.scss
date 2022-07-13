@@ -136,7 +136,7 @@ hr {
 
 .card {
     border-radius: 5px;
-    margin-left: 20rem;
+    align-items: center;
     -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
     box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
     border: none;
@@ -165,7 +165,7 @@ hr {
 }
 
 .card-block {
-    padding: 1.25rem;
+    padding: 3rem;
 }
 
 .m-b-25 {
@@ -173,7 +173,11 @@ hr {
 }
 
 .img-radius {
-    border-radius: 5px;
+    border-radius: 10px;
+    max-width:200px;
+    max-height:80px;
+    width: auto;
+    height: auto;
 }
 
 
