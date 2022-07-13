@@ -120,6 +120,32 @@ a {
     }
 }
 
+.project-row {
+  display: flex;
+  justify-content: space-between;
+
+  .backbutton {
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 1rem;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+      margin-right: 5px;
+    }
+  }
+}
+
 .categories {
   border: 7px;
   background-color: #e7e7e7;
