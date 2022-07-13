@@ -2,20 +2,20 @@
 layout: default
 ---
 
-<div class="banner">
+<div class="banner-blog">
     <div class="container">
-        <div class="logo">
+        <div class="logo-blog">
             <a href="/">
                 <img src="/assets/img/logo.svg"/>
             </a>
-        </div>
-        <div class="title">
-            {{ page.title }}
         </div>
     </div>
 </div>
 
 <div class="container page">
+    <div class="title-blog">
+        {{ page.title }}
+    </div>
     <img src="{{page.hero}}">
     <div class="dates">
         {{ page.date | date: "%b %d, %Y" }}

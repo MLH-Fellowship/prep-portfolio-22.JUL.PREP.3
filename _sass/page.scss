@@ -27,8 +27,22 @@ body {
     height: auto;
 }
 
-.banner .title {
-    color: white;
+.banner-blog {
+    padding: 30px 0px 0px 0px;
+    height: 95px;
+    background-color: #1d539f;
+    margin-bottom: 35px;
+}
+
+.banner-blog .logo-blog {
+    max-width:180px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+}
+
+.title-blog {
+    color: black;
     font-size: 50px;
     font-weight: 700;
 }
