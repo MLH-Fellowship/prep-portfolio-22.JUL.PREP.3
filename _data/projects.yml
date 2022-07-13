@@ -1,14 +1,26 @@
 - title: Online Shopping App
   event: MLH Prep Pod Project
-  date: Fall 2021  - Batch 4.5
+  date: JULY 2022  - Batch 3
   page-name: project
+  img: mlh.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate.
+  tech-stack: React
+  developer-name: Lorem Ipsum
 
-- title: Todo List
+- title: Web App
   event: MLH Prep Pod Project
-  date: Fall 2021  - Batch 4.5
+  date: JULY 2022  - Batch 3
   page-name: project
+  img: mlh.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate.
+  tech-stack: React
+  developer-name: Lorem Ipsum
 
 - title: iOS App
   event: MLH Prep Pod Project
-  date: Fall 2021  - Batch 4.5
+  date: JULY 2022  - Batch 3
   page-name: project
+  img: mlh.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate.
+  tech-stack: React
+  developer-name: Lorem Ipsum
