@@ -71,6 +71,7 @@ GEM
 PLATFORMS
   ruby
   x64-mingw32
+  x64-unknown
 
 DEPENDENCIES
   jekyll (~> 4.1.1)
