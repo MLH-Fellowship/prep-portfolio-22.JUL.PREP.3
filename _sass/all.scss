@@ -17,9 +17,9 @@ html,body{
 }
 
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -90,21 +90,22 @@ a {
 }
 
 .info {
-    p {
-        margin-top: 5px;
-        margin: 0px;
-        text-align: left;
-    }
+  p {
+    margin-top: 5px;
+    margin: 0px;
+    text-align: left;
+  }
 
-    .title {
-        font-size: 500;
-        font-weight: bold;
-    }
+  .title {
+    font-size: 500;
+    font-weight: bold;
+  }
 
-    .location, .description {
-        font-size: medium;
-        font-weight: 400;
-    }
+  .location,
+  .description {
+    font-size: medium;
+    font-weight: 400;
+  }
 
     .dates {
         font-size: small;
@@ -113,15 +114,31 @@ a {
     }
 }
 
+.socialmedia {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0 0;
+  padding: 0;
+  justify-content: space-evenly;
+  width: 150px;
+  a {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+  }
+}
 .icon {
-    width: 70px;
-    height: 70px;
-    margin-right: 20px;
-    padding: 10px;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  padding: 10px;
 
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 }
 
 .checkbox {
@@ -158,10 +175,17 @@ a {
   transform: translateX(24px);
 }
 
+
 .fa-moon {
   color: #f1c40f;
 }
-
 .fa-sun {
   color: #f39c12;
+}
+.categories {
+  border: 7px;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+  color: #555555;
+  margin-top: 5px;
 }
