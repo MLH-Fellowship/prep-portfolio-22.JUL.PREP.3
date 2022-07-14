@@ -1,26 +1,14 @@
-- project-name: Natours
-  brief-description: Natours is a tour booking  application that help people travel around
-  live-site: https://github.com/
-  project-screenshot: ./ass
-  author-img: https://github.com/
-  technologies:
-    - Nodejs
-    - Angularjs
-    - Reactjs
-    - Bootstrap
-  page-name: project
-- project-name: Natours
-  brief-description: Natours is a tour booking  application that help people travel around
-  live-site: https://github.com/
-  project-screenshot: ./ass
-  author-img: https://github.com/
-  technologies:
-    - Nodejs
-    - Angularjs
-    - Reactjs
-    - Bootstrap
+- title: Online Shopping App
+  event: MLH Prep Pod Project
+  date: Fall 2021  - Batch 4.5
   page-name: project
 
+- title: Todo List
+  event: MLH Prep Pod Project
+  date: Fall 2021  - Batch 4.5
+  page-name: project
 
-
-
+- title: iOS App
+  event: MLH Prep Pod Project
+  date: Fall 2021  - Batch 4.5
+  page-name: project
