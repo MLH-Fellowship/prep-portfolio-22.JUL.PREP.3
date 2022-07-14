@@ -3,23 +3,32 @@ layout: default
 ---
 
 <div class="banner">
+    
     <div class="container">
-        <div class="logo">
-            <a href="/">
-                <img class="w-100 mh-100" src="/assets/img/mlh-prep.png" max-width="180px" max-height="60px" alt="mlh prep program logo"/>
-            </a>
+        <div class = "d-flex">
+            <div>
+                <div class="logo">
+                    <a href="/">
+                        <img src="/assets/img/logo.svg"/>
+                    </a>
+                </div>
+
+                <div class="title">
+                    {{ page.title }}
+                </div>
+            </div>
+        
+
+            <div class="toggle-button ml-auto">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fa fa-moon"></i>
+                    <i class="fa fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
         </div>
-        <div class="project-row">
-        <div class="title-proj">
-            {{ page.title }}
-        </div>
-        <button class="backbutton">
-            <a href="/">
-            <img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="main page navigation button">
-            Main Page
-            </a>
-        </button>
-        </div>
+        
     </div>
 </div>
 
@@ -27,4 +36,4 @@ layout: default
     {{ content }}
 </div>
 
-{% include footer.html %}
+<script type="text/javascript" src = "../assets/js/main.js"></script>

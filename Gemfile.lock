@@ -72,6 +72,7 @@ PLATFORMS
   ruby
   x64-mingw-ucrt
   x64-mingw32
+  x64-unknown
 
 DEPENDENCIES
   jekyll (~> 4.1.1)

@@ -1,0 +1,96 @@
+<script>
+
+    // url for fetching PRs data 
+    const URL_FOR_PRS = "https://api.github.com/repos/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3/pulls?state=";
+    // url for fetching commits data
+    const URL_FOR_COMMITS = "https://api.github.com/repos/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3/stats/contributors"
+
+    
+    // initialize data array
+    let data = [];
+    {% for item in site.data.fellows %}
+      img = "demo_icon.png"
+      {% if item.img %}
+        img = "{{item.img}}"
+      {% endif %}
+      data.push({
+        image: img,
+        github_username: "{{item.github-username}}",
+        fellow: "{{item.name}}",
+        prs: 0,
+        open: 0,
+        commits: 0
+      })
+    
+    {% endfor %}
+    console.log(data);
+    // function to create table displaying values fetched
+    const createTable = (value1, value2,value3) => {
+          for(let i=0; i<data.length; i++){
+            
+            const item = data[i];
+            const PRsbyFellow = value1.filter((pr) => pr.user.login==item.github_username);
+            const PRsbyFellowOpened = value2.filter((pr) => pr.user.login==item.github_username);
+            const commitsbyFellow = value3.filter((commit)=>commit.author.login == item.github_username);
+            
+            item.prs = PRsbyFellow.length;
+            item.open = PRsbyFellowOpened.length;
+            item.commits = commitsbyFellow.length > 0 ? commitsbyFellow[0].total : 0;
+
+          }
+
+          // sort data by total number of PRs , Open Prs and total number of commits performed
+          data = data.sort((a,b) => (a.prs == b.prs) ? ((a.open == b.open)? ((a.commits == b.commits ) ? (((a.fellow > b.fellow) ? 1 : ((b.fellow > a.fellow) ? -1 : 0))): (a.commits < b.commits) ? 1 : ((b.commits < a.commits) ? -1 : 0) ) : ((a.open < b.open) ? 1 : ((b.open < a.open) ? -1 : 0))) : ((a.prs < b.prs) ? 1 : ((b.prs < a.prs) ? -1 : 0)));
+
+          let innerDATA=``;
+          
+          for(let i=0; i< data.length; i++)
+          {
+            innerDATA+=`<tr>
+             <th> <img src= "./assets/img/${data[i].image}" class="avatar"/> </th>
+                <td class="leaderboardName">
+                  <a  href="https://github.com/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3/pulls/${data[i].github_username}">
+                    ${data[i].fellow}
+                  </a>
+                </td>
+                <td>${data[i].prs}</td>
+                <td class="open">${data[i].open}</td>
+                <td>${data[i].commits}</td>
+            </tr>`;
+          }
+
+          document.getElementById("tabledata").innerHTML= innerDATA;
+
+  }
+  // fetch data of open & merged PRs and total commits by collaborators
+  const fetchingDATA = async (url1, url2,url3) => {
+          const response1 = await fetch(url1);
+          const response2 = await fetch(url2);
+          const response3 = await fetch(url3);
+        
+          const data1 = await response1.json();
+          const data2 = await response2.json();
+          const data3 = await response3.json();
+          
+          createTable(data1, data2,data3);
+  }
+  // calling fetch data function
+  fetchingDATA(`${URL_FOR_PRS}closed`, `${URL_FOR_PRS}open`,URL_FOR_COMMITS);
+</script>
+
+<!-- Layout -->
+<div class="leaderboard">
+  <h2 class="pb-md-4 pb-2">Leaderboard</h2>
+  <table class="table">
+    <thead class="head-blue">
+      <tr>
+        <th scope="col" class="pl-3">S.No.</th>
+        <th scope="col">Fellow</th>
+        <th scope="col"><span class="open">Merged</span> PRs</th>
+        <th scope="col" class="open">Open PRs</th>
+        <th scope="col" class="open">Commits</th>
+      </tr>
+    </thead>
+    <tbody id="tabledata"></tbody>
+  </table>
+</div>

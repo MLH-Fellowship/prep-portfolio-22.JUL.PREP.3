@@ -9,6 +9,7 @@
   resume:
   programming_language: C++
   interest: writing
+  github-username: SanjaySinghRajpoot
 
 - name: Liuba
   img: liuba.jpeg
@@ -21,6 +22,7 @@
   resume: https://drive.google.com/file/d/19ernn98MSdaX6uneC6quFIvF4-RtwkHf/view?usp=sharing
   programming_language: Python, TypeScript
   interest: Yoga, Gaming, Music
+  github-username: LiubovRukhlina
 
 - name: Himanshu Thakur
   img: himanshu.jpg
@@ -28,11 +30,12 @@
   university: National Institute Of Technology, Kurukshetra
   email: himanshuthakur8119@gmail.com
   twitter:
-  github:
-  linkedin:
-  resume:
+  github: https://github.com/himanshu-thakur-7
+  linkedin: https://www.linkedin.com/in/himanshu-thakur-9582631a6/
+  resume: https://drive.google.com/file/d/1at-sZKEESTRN4ZmAuJtEUFNwuGBK6Nty/view?usp=sharing
   programming_language: Javascript , Python , Dart
   interest: Chess , Listening to Spotify , Going for a walk
+  github-username: himanshu-thakur-7
 
 - name: Chidera Innocent
   img: chidera.jpeg
@@ -45,6 +48,7 @@
   resume: https://drive.google.com/file/d/1y8iKtaX_uaj8zHBxelKXT0XhN_aSNaXn/view
   programming_language: Python, Javascript
   interest: History and Archeology
+  github-username: codewarsfx
 
 - name: Shehab Adel
   img: shehab.jpg
@@ -57,7 +61,8 @@
   resume: https://drive.google.com/file/d/1BdeMh9UwdL_JKiFVz6mdayZK3zZGW8_L/view?usp=drivesdk
   programming_language: JavaScript, Java
   interest: Music, Twitter, Socializing
-
+  github-username: shehabadel
+  
 - name: A.S.L.Manasa
   img: aslmanasa.jpeg
   location: India
@@ -69,6 +74,7 @@
   resume:
   programming_language: Java
   interest: Sports
+  github-username: ASLManasa
 
 - name: Somaditya Singh
   img: somaditya.jpg
@@ -81,6 +87,7 @@
   resume: https://drive.google.com/file/d/1G0cc2YUgk4vJURyyxCRGNdiopmLirUg-/view
   programming_language: C++, React, Solidity
   interest: Economics & Finance, Books (non fiction, self improvement etc),  Gymming
+  github-username: somadisingh
 
 - name: Saswat Samal
   img: saswat.jpeg
@@ -93,6 +100,7 @@
   resume: https://drive.google.com/file/d/1BFfSY8fWLjM4FtK6WsZGe_-357XpBUHS/view
   programming_language: Javascript
   interest: Anime and Netflix
+  github-username: saswatsam786
 
 - name: Yaya Usman
   img: yaya.jpg
@@ -105,6 +113,7 @@
   resume:
   programming_language: Typescript/Javascript
   interest:
+  github-username: yaya-usman
 
 - name: Indira
   img: indira.jpeg
@@ -117,36 +126,67 @@
   resume: https://drive.google.com/file/d/1o5KwrKGkBcnrUqmw3Kx5kfhgu7shRktA/view
   programming_language: JavaScript
   interest: Watching films and design
+  github-username: indywip
+
+- name: Julian Willis
+  github-username: gibbonhug
+
+- name: Sadiq Babalola
+  github-username: sadiq-b
 
 - name: Elmar
-  img: mlh.jpg
-  location:
-  university:
-  email:
+  img: elmar.png
+  location: Azerbaijan
+  university: Baku State University
+  email: l-mar@inbox.ru
   twitter:
-  github:
-  linkedin:
-  resume:
-  programming_language:
-  interest:
+  github: https://github.com/elmar8287
+  linkedin: https://www.linkedin.com/in/elmar-abdulkarimov/
+  resume: https://docs.google.com/document/d/11gH6tybnpcu4dNIOgvlKynqazTGiXMctsk8q0gO5JW0/edit?usp=sharing
+  programming_language: JS, Python
+  interest: Travel
 
 - name: Vy Nguyen
-  img: mlh.jpg
-  location:
-  university:
-  email:
+  img: vy.jpeg
+  location: Canada
+  university: Drexel University
+  email: thuccvy@gmail.com
   twitter:
-  github:
-  linkedin:
+  github: https://github.com/thucvy
+  linkedin: https://www.linkedin.com/in/thucvy
   resume:
-  programming_language:
-  interest:
+  programming_language: Python, JavaScript
+  interest: Camping, Hiking, Photography
 
 - name: Di Wu
+  img: diwu.png
+  location: USA
+  university: New York University
+  email: dw2761@nyu.edu
+  twitter:
+  github: https://github.com/dw2761
+  linkedin: https://www.linkedin.com/in/dw426
+  resume: https://drive.google.com/file/d/1s82rODoZMsGOdm2ro1tONndVExn2u_Ds/view
+  programming_language: Java
+  interest: Anime
+
+- name: Sadiq Babalola
+  img: sadiq.png
+  location: Nigeria
+  university: University Of Lagos
+  email: babalolasadiq@gmail.com
+  twitter: https://twitter.com/sadiiq__
+  github: https://github.com/Sadiq-b
+  linkedin: https://www.linkedin.com/in/sadiq-babalola-60b63618b/
+  resume: https://docs.google.com/document/d/1gz4PvtjLmuTSwk3lFgdgtmpUQlIWuRjq
+  programming_language: Python, JavaScript
+  interest: Football, Music
+
+- name: Julian Willis
   img: mlh.jpg
-  location:
+  location: United States
   university:
-  email:
+  email: juliangwillis@gmail.com
   twitter:
   github:
   linkedin:

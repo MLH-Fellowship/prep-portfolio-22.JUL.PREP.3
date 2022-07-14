@@ -1,0 +1,58 @@
+.leaderboard {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 80px;
+    .avatar{
+        vertical-align: bottom;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    table {
+      padding-left: 40px;
+      box-shadow: 0px 2px 6px 0px #aac;
+      a:hover,
+      a:focus,
+      a:visited,
+      a:active {
+        color: inherit;
+        text-decoration: none;
+        
+      }
+      .head-blue {
+        background-color: #1d579f;
+        color:  #FFFFFF;;
+      }
+      tr:nth-child(2n) {
+        background-color: rgb(228, 237, 247);
+      }
+      .leaderboardName {
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1.9vh;
+      }
+      .leaderboardName:hover a{
+        color: rgb(106, 106, 246);
+      }
+    }
+  }
+  
+  .table td, .table th {
+      border-top: 0px solid #dee2e6;
+      font-size: 1.8vh;
+  }
+  
+  
+  @media only screen and (max-width: 900px) {
+    .leaderboard {
+      max-width: 100%;
+      padding: 0 30px;
+      margin-bottom: 40px;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .open {
+      display: none;
+    }
+  }

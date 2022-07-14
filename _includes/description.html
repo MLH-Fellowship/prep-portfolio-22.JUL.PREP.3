@@ -1,46 +1,46 @@
 <div id="about"> 
-<h2>Meet the Pod</h2>
-<div class="card-container" id="pod-members">
-    {% for item in site.data.fellows %}
-    {% if item.name %}
-    <a href="/profile/{{ item.name }}">
-    {% else %}
-    <a>
-    {% endif %}
-        <div class="card">
-            <div class="info">
-                <p class="title"> {{ item.name }}</p>
-                <p class="location"> {{ item.location }}</p>
-                <!--Create a new div here wrapping the socail media icons-->
-                <div>
-                    <!--Social media icons list-->
-                    <ul class="socialmedia">
-                        <!--Represents a social media icon-->
-                        {% if item.twitter %}
-                        <a target="_blank" href={{item.twitter}}>
-                            <!--Replace the text in the list item with the <i> from the font awesome-->
-                            <li> <i class="fab fa-twitter"></i> </li>
-                        </a>
-                        {% endif %}
-                        {% if item.linkedin %}
-                        <a target="_blank" href={{item.linkedin}}>
-                            <li><i class="fab fa-linkedin"></i></li>
-                        </a>
-                        {% endif %}
-                        {% if item.github %}
-                        <a target="_blank" href={{item.github}}>
-                            <li><i class="fab fa-github"></i></li>
-                        </a>
-                        {% endif %}
-                        {% if item.resume %}
-                        <a target="_blank" href={{item.resume}}>
-                            <li><i class="far fa-file"></i></li>
-                        </a>
-                        {% endif %}
-                    </ul>
+    <h2>Meet the Pod</h2>
+    <div class="card-container">
+        {% for item in site.data.fellows %}
+        {% if item.name %}
+        <a href="/profile/{{ item.name }}">
+        {% else %}
+        <a>
+        {% endif %}
+            <div class="card">
+                <div class="info">
+                    <p class="title"> {{ item.name }}</p>
+                    <p class="location"> {{ item.location }}</p>
+                    <!--Create a new div here wrapping the socail media icons-->
+                    <div>
+                        <!--Social media icons list-->
+                        <ul class="socialmedia">
+                            <!--Represents a social media icon-->
+                            {% if item.twitter %}
+                            <a target="_blank" href={{item.twitter}}>
+                                <!--Replace the text in the list item with the <i> from the font awesome-->
+                                <li> <i class="fab fa-twitter"></i> </li>
+                            </a>
+                            {% endif %}
+                            {% if item.linkedin %}
+                            <a target="_blank" href={{item.linkedin}}>
+                                <li><i class="fab fa-linkedin"></i></li>
+                            </a>
+                            {% endif %}
+                            {% if item.github %}
+                            <a target="_blank" href={{item.github}}>
+                                <li><i class="fab fa-github"></i></li>
+                            </a>
+                            {% endif %}
+                            {% if item.resume %}
+                            <a target="_blank" href={{item.resume}}>
+                                <li><i class="far fa-file"></i></li>
+                            </a>
+                            {% endif %}
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </a>
-    {% endfor %}
-</div>
+        </a>
+        {% endfor %}
+    </div>
