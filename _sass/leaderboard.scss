@@ -30,15 +30,17 @@
       .leaderboardName {
         cursor: pointer;
         font-weight: 700;
+        font-size: 1.9vh;
       }
       .leaderboardName:hover a{
-        color: #1d539f;
+        color: rgb(106, 106, 246);
       }
     }
   }
   
   .table td, .table th {
       border-top: 0px solid #dee2e6;
+      font-size: 1.8vh;
   }
   
   
