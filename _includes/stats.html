@@ -9,15 +9,21 @@
     // initialize data array
     let data = [];
     {% for item in site.data.fellows %}
+      img = "demo_icon.png"
+      {% if item.img %}
+        img = "{{item.img}}"
+      {% endif %}
       data.push({
+        image: img,
         github_username: "{{item.github-username}}",
         fellow: "{{item.name}}",
         prs: 0,
         open: 0,
         commits: 0
       })
+    
     {% endfor %}
-
+    console.log(data);
     // function to create table displaying values fetched
     const createTable = (value1, value2,value3) => {
           for(let i=0; i<data.length; i++){
@@ -41,11 +47,11 @@
           for(let i=0; i< data.length; i++)
           {
             innerDATA+=`<tr>
-              <th scope="row" class="pl-4">${i+1}</th>
+             <th> <img src= "./assets/img/${data[i].image}" class="avatar"/> </th>
                 <td class="leaderboardName">
                   <a  href="https://github.com/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3/pulls/${data[i].github_username}">
                     ${data[i].fellow}
-                    </a>
+                  </a>
                 </td>
                 <td>${data[i].prs}</td>
                 <td class="open">${data[i].open}</td>

@@ -1,5 +1,4 @@
 - name: Sanjay Singh Rajpoot
-  img: sanjay.jpg
   location: India
   university: IET DAVV
   email: iamsanjayrajpoot@gmail.com
@@ -12,7 +11,6 @@
   github-username: SanjaySinghRajpoot
 
 - name: Liuba
-  img: liuba.jpeg
   location: Budapest, Hungary
   university: Budapest University of Technology and Economics
   email: liuba.rukhlina@gmail.com
