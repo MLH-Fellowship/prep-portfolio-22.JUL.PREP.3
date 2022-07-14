@@ -22,7 +22,7 @@ h2,p{
 
 .project-container{
   display:grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 15px;
    width: 80%;
    max-width: 1200px;
@@ -171,24 +171,31 @@ h2,p{
 
 .icon-link{
     margin:  0;
-    font-size: 18px;
+    font-size: 20px;
+
 }
 
-@media screen and (max-width:760px) {
+@media screen and (min-width:560px) {
     .project-container{
       display:grid;
       grid-template-columns: repeat(2,1fr);
    
     }
   }
-  @media screen and (max-width:370px) {
+  @media screen and (min-width:800px) {
     .project-container{
       display:grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(3,1fr);
 
     }
   }
+  @media screen and (min-width:1100px) {
+    .project-container{
+      display:grid;
+      grid-template-columns: repeat(4,1fr);
 
+    }
+  }
 
 
 
