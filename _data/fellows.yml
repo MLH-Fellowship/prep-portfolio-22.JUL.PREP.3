@@ -119,34 +119,58 @@
   interest: Watching films and design
 
 - name: Elmar
-  img: mlh.jpg
-  location:
-  university:
-  email:
+  img: elmar.png
+  location: Azerbaijan
+  university: Baku State University
+  email: l-mar@inbox.ru
   twitter:
-  github:
-  linkedin:
-  resume:
-  programming_language:
-  interest:
+  github: https://github.com/elmar8287
+  linkedin: https://www.linkedin.com/in/elmar-abdulkarimov/
+  resume: https://docs.google.com/document/d/11gH6tybnpcu4dNIOgvlKynqazTGiXMctsk8q0gO5JW0/edit?usp=sharing
+  programming_language: JS, Python
+  interest: Travel
 
 - name: Vy Nguyen
-  img: mlh.jpg
-  location:
-  university:
-  email:
+  img: vy.jpeg
+  location: Canada
+  university: Drexel University
+  email: thuccvy@gmail.com
   twitter:
-  github:
-  linkedin:
+  github: https://github.com/thucvy
+  linkedin: https://www.linkedin.com/in/thucvy
   resume:
-  programming_language:
-  interest:
+  programming_language: Python, JavaScript
+  interest: Camping, Hiking, Photography
 
 - name: Di Wu
+  img: diwu.png
+  location: USA
+  university: New York University
+  email: dw2761@nyu.edu
+  twitter:
+  github: https://github.com/dw2761
+  linkedin: https://www.linkedin.com/in/dw426
+  resume: https://drive.google.com/file/d/1s82rODoZMsGOdm2ro1tONndVExn2u_Ds/view
+  programming_language: Java
+  interest: Anime
+
+- name: Sadiq Babalola
+  img: sadiq.png
+  location: Nigeria
+  university: University Of Lagos
+  email: babalolasadiq@gmail.com
+  twitter: https://twitter.com/sadiiq__
+  github: https://github.com/Sadiq-b
+  linkedin: https://www.linkedin.com/in/sadiq-babalola-60b63618b/
+  resume: https://docs.google.com/document/d/1gz4PvtjLmuTSwk3lFgdgtmpUQlIWuRjq
+  programming_language: Python, JavaScript
+  interest: Football, Music
+
+- name: Julian Willis
   img: mlh.jpg
-  location:
+  location: United States
   university:
-  email:
+  email: juliangwillis@gmail.com
   twitter:
   github:
   linkedin:
