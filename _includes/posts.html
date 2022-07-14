@@ -1,0 +1,21 @@
+<div id="posts">
+    <h2>Blog Posts</h2>
+    <div class="card-container">
+        {% for item in site.data.posts %}
+        {% if item.page-name %}
+        <a href="/posts/{{ item.page-name }}">
+        {% else %}
+        <a>
+        {% endif %}
+          <div class="card">
+            <div class="info">
+              <img src="https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt.jpg" class ="img">
+              <p class="title">{{ item.title }}</p>
+              <p class="location">Written by {{ item.author }}</p>
+              <p class="dates">{{ item.date }}</p>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+    </div>
+  </div>

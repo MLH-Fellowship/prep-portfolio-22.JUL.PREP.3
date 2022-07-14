@@ -1,28 +1,29 @@
 .profile {
-    background-color: #133667 !important;
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: 50px;
-    h1 {
-        font-size: 50px;
-        font-weight: 700;
-        color: white;
-    }
-        
-    .profile-picture {
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        img {
-            flex: 1 0 50%; // 50% basis: 2 columns small screen
-            min-width: 100px;
-            max-width: 200px;
-            aspect-ratio: 1/1;
-            border-radius: 50%;
-            display: inline;
-            padding: 20px;   
-        }
-    }
+  background-color: #133667 !important;
+  text-align: center;
+  height: fit-content;
+  margin-bottom: 50px;
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+
+  img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    object-fit: cover;
+    object-position: 100% 20%;
+  }
+
+  .profile-picture {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
