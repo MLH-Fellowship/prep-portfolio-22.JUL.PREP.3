@@ -3,7 +3,16 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
+@import 'footer';
+@import 'projects';
+html,body{
+  height: 100%;
+}
 
+
+html{
+  scroll-behavior: smooth;
+}
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
