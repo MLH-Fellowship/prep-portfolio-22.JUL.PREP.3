@@ -3,14 +3,6 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
-@import 'footer';
-html,body{
-  height: 100%;
-}
-
-html{
-  scroll-behavior: smooth;
-}
 
 .card-container {
     display: grid;
