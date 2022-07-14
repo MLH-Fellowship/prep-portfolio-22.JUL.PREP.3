@@ -10,6 +10,7 @@
   programming_language: C++
   interest: writing
   github-username: SanjaySinghRajpoot
+  id: 0
 
 - name: Liuba
   img: liuba.jpeg
@@ -23,6 +24,7 @@
   programming_language: Python, TypeScript
   interest: Yoga, Gaming, Music
   github-username: LiubovRukhlina
+  id: 1
 
 - name: Himanshu Thakur
   img: himanshu.jpg
@@ -36,6 +38,7 @@
   programming_language: Javascript , Python , Dart
   interest: Chess , Listening to Spotify , Going for a walk
   github-username: himanshu-thakur-7
+  id: 2
 
 - name: Chidera Innocent
   img: chidera.jpeg
@@ -49,6 +52,7 @@
   programming_language: Python, Javascript
   interest: History and Archeology
   github-username: codewarsfx
+  id: 3
 
 - name: Shehab Adel
   img: shehab.jpg
@@ -62,6 +66,7 @@
   programming_language: JavaScript, Java
   interest: Music, Twitter, Socializing
   github-username: shehabadel
+  id: 4
   
 - name: A.S.L.Manasa
   img: aslmanasa.jpeg
@@ -75,6 +80,7 @@
   programming_language: Java
   interest: Sports
   github-username: ASLManasa
+  id: 5
 
 - name: Somaditya Singh
   img: somaditya.jpg
@@ -88,6 +94,7 @@
   programming_language: C++, React, Solidity
   interest: Economics & Finance, Books (non fiction, self improvement etc),  Gymming
   github-username: somadisingh
+  id: 6
 
 - name: Saswat Samal
   img: saswat.jpeg
@@ -101,6 +108,7 @@
   programming_language: Javascript
   interest: Anime and Netflix
   github-username: saswatsam786
+  id: 7
 
 - name: Yaya Usman
   img: yaya.jpg
@@ -114,6 +122,7 @@
   programming_language: Typescript/Javascript
   interest:
   github-username: yaya-usman
+  id: 8
 
 - name: Indira
   img: indira.jpeg
@@ -127,12 +136,25 @@
   programming_language: JavaScript
   interest: Watching films and design
   github-username: indywip
+  id: 9
 
 - name: Julian Willis
-  github-username: gibbonhug
+  img: mlh.jpg
+  location: United States
+  university:
+  email: juliangwillis@gmail.com
+  twitter:
+  github: gibbonhug
+  linkedin:
+  resume:
+  programming_language:
+  interest:
+  id: 10
+
 
 - name: Sadiq Babalola
   github-username: sadiq-b
+  id: 11
 
 - name: Elmar
   img: elmar.png
@@ -145,6 +167,7 @@
   resume: https://docs.google.com/document/d/11gH6tybnpcu4dNIOgvlKynqazTGiXMctsk8q0gO5JW0/edit?usp=sharing
   programming_language: JS, Python
   interest: Travel
+  id: 12
 
 - name: Vy Nguyen
   img: vy.jpeg
@@ -157,6 +180,7 @@
   resume:
   programming_language: Python, JavaScript
   interest: Camping, Hiking, Photography
+  id: 13
 
 - name: Di Wu
   img: diwu.png
@@ -169,6 +193,7 @@
   resume: https://drive.google.com/file/d/1s82rODoZMsGOdm2ro1tONndVExn2u_Ds/view
   programming_language: Java
   interest: Anime
+  id: 14
 
 - name: Sadiq Babalola
   img: sadiq.png
@@ -181,15 +206,4 @@
   resume: https://docs.google.com/document/d/1gz4PvtjLmuTSwk3lFgdgtmpUQlIWuRjq
   programming_language: Python, JavaScript
   interest: Football, Music
-
-- name: Julian Willis
-  img: mlh.jpg
-  location: United States
-  university:
-  email: juliangwillis@gmail.com
-  twitter:
-  github:
-  linkedin:
-  resume:
-  programming_language:
-  interest:
+  id: 15
