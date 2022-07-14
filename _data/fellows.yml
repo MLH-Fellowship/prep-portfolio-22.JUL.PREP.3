@@ -1,4 +1,6 @@
-- name: Sanjay Singh Rajpoot
+
+- name: Sanjay
+  img: sanjay.jpg\
   location: India
   university: IET DAVV
   email: iamsanjayrajpoot@gmail.com
@@ -11,6 +13,7 @@
   github-username: SanjaySinghRajpoot
 
 - name: Liuba
+  img: liuba.jpeg
   location: Budapest, Hungary
   university: Budapest University of Technology and Economics
   email: liuba.rukhlina@gmail.com
@@ -34,7 +37,7 @@
   programming_language: Javascript , Python , Dart
   interest: Chess , Listening to Spotify , Going for a walk
   github-username: himanshu-thakur-7
-
+  
 - name: Chidera Innocent
   img: chidera.jpeg
   location: Nigeria
@@ -132,5 +135,39 @@
 - name: Sadiq Babalola
   github-username: sadiq-b
 
-- name: Elmar Abdulkarimov
+- name: Elmar
+  img: mlh.jpg
+  location:
+  university:
+  email:
+  twitter:
+  github:
+  linkedin:
+  resume:
+  programming_language:
+  interest:
   github-username: elmar8287
+
+- name: Vy Nguyen
+  img: mlh.jpg
+  location:
+  university:
+  email:
+  twitter:
+  github:
+  linkedin:
+  resume:
+  programming_language:
+  interest:
+
+- name: Di Wu
+  img: mlh.jpg
+  location:
+  university:
+  email:
+  twitter:
+  github:
+  linkedin:
+  resume:
+  programming_language:
+  interest:
