@@ -1,7 +1,7 @@
 'use strict';
 
 (function () {
-    console.log('script loaded');
+    console.log('script loaded'); //temp
 
     // if updating default color also have to update
     // the world-map.html file (the #pins fill)
