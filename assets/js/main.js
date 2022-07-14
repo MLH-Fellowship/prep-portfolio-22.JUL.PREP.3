@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   // Set the default mode to light
   if (localStorage.getItem("darkMode") === null) {
-    localStorage.setItem("darkMode", "light");
-    document.documentElement.setAttribute("data-theme", "light");
+    window.onload = autoSwitch;
+    
   } else {
     if (localStorage.getItem("darkMode") === "dark") {
       document.documentElement.setAttribute("data-theme", "dark");
@@ -31,11 +31,11 @@ function autoSwitch() {
   var hour = new Date().getHours();
   if (hour >= "9" && hour <= "17") {
     localStorage.setItem("darkMode", "light");
+    document.documentElement.setAttribute("data-theme", "light");
   } else {
     localStorage.setItem("darkMode", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
   }
 }
 
-if (localStorage.getItem("darkMode") === null) {
-  window.onload = autoSwitch;
-}
+
