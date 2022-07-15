@@ -50,6 +50,47 @@
     - NodeJS
     - Hedera SDK
   page-name: Saswat-project
+- project-name: WaffleSwap
+  brief-description: A decentralized exchange built on Ethereum Blockchain
+  github-url: https://github.com/somadisingh/waffleswap-v2
+  author-name: Somaditya
+  technologies:
+    - NextJs
+    - Tailwind CSS
+    - Solidity
+    - Ganache Suite
+  page-name: Somaditya-project
+- project-name: Inventory Tracking
+  brief-description: An inventory tracking system that implements basic CRUD functionalities.
+  github-url: https://github.com/dw2761/Shopify-challenge
+  author-name: Di
+  technologies:
+    - NodeJs
+    - JQuery
+    - MongoDB
+    - ExpressJs
+  page-name: Di-project
+  - project-name: Readable Brute Force
+  brief-description: Allows users to browse safely & avoid wesbites containing NSFW words.
+  github-url: https://github.com/ASLManasa/Readable_Brute_Force
+  author-name: Manasa
+  technologies:
+    - NextJs
+    - Bootstrap
+    - Flask
+    - ChakraUI
+  page-name: Manasa-project
+  - project-name: Plycard
+  brief-description: A website where user can post question on any topic and other users can answer them.
+  github-url: https://github.com/SanjaySinghRajpoot/plyCard
+  live-site: https://plycard.herokuapp.com/
+  author-name: Sanjay
+  technologies:
+    - MERN
+    - Material UI
+    - Redux
+    - Axios Backend
+  page-name: Sanjay-project
 
 
 
