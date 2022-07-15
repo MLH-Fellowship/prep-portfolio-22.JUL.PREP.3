@@ -62,7 +62,7 @@
   programming_language: JavaScript, Java
   interest: Music, Twitter, Socializing
   github-username: shehabadel
-  
+
 - name: A.S.L.Manasa
   img: aslmanasa.jpeg
   location: India
@@ -128,12 +128,6 @@
   interest: Watching films and design
   github-username: indywip
 
-- name: Julian Willis
-  github-username: gibbonhug
-
-- name: Sadiq Babalola
-  github-username: sadiq-b
-
 - name: Elmar
   img: elmar.png
   location: Azerbaijan
@@ -145,6 +139,7 @@
   resume: https://docs.google.com/document/d/11gH6tybnpcu4dNIOgvlKynqazTGiXMctsk8q0gO5JW0/edit?usp=sharing
   programming_language: JS, Python
   interest: Travel
+  github-username: elmar8287
 
 - name: Vy Nguyen
   img: vy.jpeg
@@ -157,6 +152,7 @@
   resume:
   programming_language: Python, JavaScript
   interest: Camping, Hiking, Photography
+  github-username: thucvy
 
 - name: Di Wu
   img: diwu.png
@@ -169,6 +165,7 @@
   resume: https://drive.google.com/file/d/1s82rODoZMsGOdm2ro1tONndVExn2u_Ds/view
   programming_language: Java
   interest: Anime
+  github-username: dw2761
 
 - name: Sadiq Babalola
   img: sadiq.png
@@ -181,6 +178,7 @@
   resume: https://docs.google.com/document/d/1gz4PvtjLmuTSwk3lFgdgtmpUQlIWuRjq
   programming_language: Python, JavaScript
   interest: Football, Music
+  github-username: sadiq-b
 
 - name: Julian Willis
   img: mlh.jpg
@@ -193,3 +191,4 @@
   resume:
   programming_language:
   interest:
+  github-username: gibbonhug
