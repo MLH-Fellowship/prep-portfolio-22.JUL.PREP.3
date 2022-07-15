@@ -8,6 +8,10 @@ img{
     object-fit: cover;
 }
 
+h2,p{
+    margin: 0;
+}
+
 .project-section{
     margin: 40px 0;
 
@@ -17,8 +21,9 @@ img{
 }
 
 .project-container{
-   display:flex;
-   gap: 20px;
+  display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
    width: 80%;
    max-width: 1200px;
    margin: auto;
@@ -42,12 +47,12 @@ img{
 
 .content{
     font-family: 'Poppins', sans-serif;
-    max-width:300px;
+     border: .1px solid rgb(226, 224, 224);
+    max-height: 400px;
     background-color: white;
     position: relative;
     border-radius: 15px;
     margin-top: 30px;
-    min-height: 300px;
     box-shadow: 1px 1px 24px rgba(0,0,0,0.1);
     transition: all .2s ease; 
     position: relative;
@@ -65,7 +70,7 @@ img{
     width: 100%;
     height: 100%;
     background-color:#4486E9;
-    opacity: 0.37;
+    opacity: 0.5;
     border-radius: 20px 20px 0 0;
 }
 
@@ -73,9 +78,9 @@ img{
 
 .content-top{
     border-radius: 20px 20px 0 0;
-    height: 40%;
     overflow: hidden;
     position: relative;
+    height: 40%;
 }
 
 .content-main-credits{
@@ -84,7 +89,7 @@ img{
     height: 100%;
     top: -100%;
     left: 0;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     color: white;
     display: flex;
     align-items: center;
@@ -116,26 +121,26 @@ img{
 }
 
 .content-main{
+    height: 60%;
+    padding: 1em ;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 60%;
-    padding: 1em 2em;
 }
 
 .content-main-heading{
-    margin:0;
-    padding: 0;
-    font-size: 24px;
+    font-size: 20px;
     color: #343F4D;
     font-weight:800;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 .content-main-paragraph{
-    font-size: 12px;
+    font-size: 11px;
     color: #787575;
     margin: 0;
+
 
     .content-paragraph-link{
         color: #1C4C94;
@@ -146,7 +151,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin: 10px 0;
+
 
     span{
         background-color: #ACADAD;
@@ -164,32 +169,33 @@ img{
     font-size: 14px;
 }
 
-
-@media (max-width: 768px) {
-    .content{
-        min-height: 200px;
-    }
-    .content-main-heading{
-   font-size: 18px;
-    }
-
-    .project-container{
-        flex-direction: column;
-    }
-    
-
-    .content-main-paragraph{
-        font-size: 10px;
-    }
-
-    .content-main-tags{
-        font-size: 8px;
-    }
-    .content-main{
-            padding: 1em;
-    }
-
+.icon-link{
+    margin:  0;
+    font-size: 20px;
 
 }
+
+@media screen and (min-width:560px) {
+    .project-container{
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+   
+    }
+  }
+  @media screen and (min-width:800px) {
+    .project-container{
+      display:grid;
+      grid-template-columns: repeat(3,1fr);
+
+    }
+  }
+  @media screen and (min-width:1100px) {
+    .project-container{
+      display:grid;
+      grid-template-columns: repeat(4,1fr);
+
+    }
+  }
+
 
 

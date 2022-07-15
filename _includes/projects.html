@@ -1,20 +1,20 @@
-  <div class="project-section" id="project-section">
+<div class="project-section">
   <h2>Pod Member's Projects</h2>
   <div class="project-container">
       {% for item in site.data.projects %}
       <div class="content">
         <div class="content-user">
-          <img src="./assets/img/pictures/smile.jpeg" alt="user" srcset="">
+          <img src="./assets/img/fellows-pictures/{{item.author-name}}.jpg" alt="user" srcset="">
         </div>
         <div class="content-top">
           <div class="content-main-credits">
             <h3>
                 <span>Developed by :</span><br/>
-                Innocent Chidera
+                {{item.author-name}}
             </h3>
           </div>
           <div class="content-img-overlay"></div>
-          <img src="./assets/img/screenshots/g.png" alt="project image" class="content-img">
+          <img src="./assets/img/project-screenshots/{{item.author-name}}.jpg" alt="project image" class="content-img">
         </div>
         <div class="content-main">
             <h1 class="content-main-heading">
@@ -22,7 +22,7 @@
             </h1>
             <p class="content-main-paragraph">
                 {{item.brief-description}}
-                <a href="#" class="content-paragraph-link">
+                <a href="/projects/{{ item.page-name }}" class="content-paragraph-link">
                     Read More...
                 </a>
             </p>
@@ -30,18 +30,18 @@
               {% for tech in item.technologies %}
                 <span>{{tech}}</span>
               {% endfor %}
-
+          
             </div>
             <div class="project-links">
-                <a href="#" class="project-links-live">
-                    Live Site
-                </a>
-                <a href="#" class="project-links-git">
-                  <i class="icon ion-social-github"></i>
-                </a>
+              {% if item.live-site %}
+              <a href="{{item.live-site}}" class="project-links-live"> Live Site </a>
+              {% endif %}
+              {% if item.github-url %}
+              <a href={{github-url}} class="project-links-live"><i class="icon icon-link ion-social-github"></i></a>
+              {% endif %}
             </div>
         </div>
       </div>
-    </a>
-    {% endfor %}
+      {% endfor %}
   </div>
+</div>
