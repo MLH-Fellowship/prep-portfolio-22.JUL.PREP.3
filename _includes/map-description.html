@@ -5,7 +5,7 @@
         {% include world-map.html %}
         <div class="card-container">
             {% for item in site.data.fellows %}
-            <div class="card map-card" data-fellow="{{ item.name }}" hidden>
+            <div class="card map-card" data-fellow="{{ item.id }}" hidden>
                 <div class="info">
                     <p class="title"> {{ item.name }}</p>
                     <p class="location"> {{ item.location }}</p>
