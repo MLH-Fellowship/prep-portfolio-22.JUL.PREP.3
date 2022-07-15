@@ -1,4 +1,4 @@
-<div class="project-section">
+<div class="project-section" id="projects">
   <h2>Pod Member's Projects</h2>
   <div class="project-container">
       {% for item in site.data.projects %}
@@ -30,7 +30,7 @@
               {% for tech in item.technologies %}
                 <span>{{tech}}</span>
               {% endfor %}
-          
+
             </div>
             <div class="project-links">
               {% if item.live-site %}
