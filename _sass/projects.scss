@@ -47,9 +47,10 @@ h2,p{
 
 .content{
     font-family: 'Poppins', sans-serif;
-     border: .1px solid rgb(226, 224, 224);
+     border: .1px solid var(--background-color-card);
     max-height: 400px;
-    background-color: white;
+    background-color: var(--background-color-card);
+    color: var(--text-color);
     position: relative;
     border-radius: 15px;
     margin-top: 30px;
@@ -74,7 +75,9 @@ h2,p{
     border-radius: 20px 20px 0 0;
 }
 
-
+h1{
+    color:var(--text-color);
+}
 
 .content-top{
     border-radius: 20px 20px 0 0;
@@ -130,7 +133,7 @@ h2,p{
 
 .content-main-heading{
     font-size: 20px;
-    color: #343F4D;
+    color: var(--text-color);
     font-weight:800;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
