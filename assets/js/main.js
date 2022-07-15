@@ -1,3 +1,5 @@
+let checkbox = document.getElementById("checkbox");
+
 document.addEventListener("DOMContentLoaded", function (event) {
   // Set the default mode to light
   if (localStorage.getItem("darkMode") === null) {
@@ -9,10 +11,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
     } else {
       document.documentElement.setAttribute("data-theme", "light");
     }
+    if(localStorage.getItem("checkStatus") != null){
+      checkbox.checked = localStorage.getItem("checkStatus");
+    }
+    
   }
 });
 
-let checkbox = document.getElementById("checkbox");
 
 checkbox.addEventListener("change", () => {
   var currentTheme = document.documentElement.getAttribute("data-theme");
@@ -24,6 +29,8 @@ checkbox.addEventListener("change", () => {
   document.documentElement.setAttribute("data-theme", switchToTheme);
 
   localStorage.setItem("darkMode", switchToTheme);
+
+  localStorage.setItem("checkStatus", checkbox.checked);
 });
 
 // The mode switch automatically on page load
