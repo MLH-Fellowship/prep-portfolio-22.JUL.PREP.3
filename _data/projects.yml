@@ -88,3 +88,15 @@
     - ChakraUI
   page-name: Manasa-project
 
+  - project-name: Plycard
+  brief-description: A website where user can post question on any topic and other users can answer them.
+  live-site: https://plycard.herokuapp.com/
+  github-url: https://github.com/SanjaySinghRajpoot/plyCard
+  author-name: Sanjay
+  technologies:
+    - MERN
+    - Material UI
+    - Redux
+    - Axios Backend
+  page-name: Sanjay-project
+

@@ -5,19 +5,16 @@ layout: page
 
 ## Inspiration
 
-I have always wanted to do a project in Web3 and decentralized exchange is an idea which initially fascinated me, because of the fact that there is no intermediary involved, only code.
+We where having college viva exams and there was no place to post your question and answers together, so I made a small application initially then modified to this new version.
 
 ## What it does
 
-Centralized exchanges require the user to verify themselves and the transaction between any two buyers and sellers involves an intermediary. Waffleswap is a decentralized exchange over ethereum wherein the transaction takes place directly between the buyer and seller. This removes the intermediary and the KYC requirement which otherwise would need to be done in centralized exchanges. This is one of the core concepts of decentralization, which states trustless transactions. Waffleswap is a simple user friendly DApp built using Solidity for smart contracts.
+Plycard is a website user can post question on various topics and other users can answer them. Each user has to sign up with a form or Google Auth. Once the user is signed a user can like a post, share a post and comment on any post. Every user has the ability to post new question on the website.
 
 ## How I built it
 
-Nextjs and Tailwind CSS for the Frontend Application
-Ganache Blockchain for running the DEX on.
-Truffle and Web3.js for building and testing Smart Contracts.
-Solidity for defining the Smart Contracts functionality.
+I used React Js as the major frontend framework and node js for the backend. I started with Nodejs and build all the API's first then I made the frontend. Frontend - React Js, Material UI, Redux, Redux-thunk, Axios backend - Node Js, Express, Database - MongoDB Testing - Jest, Super Tests
 
 ## Challenge I ran into while building
 
-While testing the Selling function, I ran into a bug where the selling function was verifying the transaction but not performing it. Console threw the error: MetaMask - RPC Error: Cannot set properties of undefined (setting 'loadingDefaults'), reinstalling modules and recompiling didn't do anything, but it worked out after I changed the function to async await syntax. Now everything works flawlessly.
+While implementing the search feature, I was unable to get the required data from the mongodb as I was running a wrong SQL query. Later I fixed and It started working.
