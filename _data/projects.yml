@@ -44,7 +44,7 @@
   page-name: Himanshu-Thakur-project
 
 - project-name: MovieNix
-  brief-description: A decentralised movie streaming platform built on Hedera Network
+  brief-description: A decentralized movie streaming platform built on Hedera Network
   github-url: https://github.com/saswatsam786/movieNix
   live-site: https://movienix.netlify.app/
   author-name: Saswat
@@ -56,12 +56,23 @@
   page-name: Saswat-project
 
 - project-name: WaffleSwap
-  brief-description: A decentralised exchange built on Ethereum Blockchain
+  brief-description: A decentralized exchange built on Ethereum Blockchain
   github-url: https://github.com/somadisingh/waffleswap-v2
   author-name: Somaditya
   technologies:
-    - NextJS
+    - NextJs
     - Tailwind CSS
     - Solidity
     - Ganache Suite
   page-name: Somaditya-project
+
+- project-name: Inventory Tracking System
+  brief-description: An inventory tracking system that implements basic CRUD functionalities.
+  github-url: https://github.com/dw2761/Shopify-challenge
+  author-name: Di
+  technologies:
+    - NodeJs
+    - JQuery
+    - MongoDB
+    - ExpressJs
+  page-name: Di-project
