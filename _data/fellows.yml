@@ -154,6 +154,16 @@
 
 
 - name: Sadiq Babalola
+  img: sadiq.png
+  location: Nigeria
+  university: University Of Lagos
+  email: babalolasadiq@gmail.com
+  twitter: https://twitter.com/sadiiq__
+  github: https://github.com/Sadiq-b
+  linkedin: https://www.linkedin.com/in/sadiq-babalola-60b63618b/
+  resume: https://docs.google.com/document/d/1gz4PvtjLmuTSwk3lFgdgtmpUQlIWuRjq
+  programming_language: Python, JavaScript
+  interest: Football, Music
   github-username: sadiq-b
   id: 11
 
@@ -168,6 +178,7 @@
   resume: https://docs.google.com/document/d/11gH6tybnpcu4dNIOgvlKynqazTGiXMctsk8q0gO5JW0/edit?usp=sharing
   programming_language: JS, Python
   interest: Travel
+  github-username: elmar8287
   id: 12
 
 - name: Vy Nguyen
@@ -181,6 +192,7 @@
   resume:
   programming_language: Python, JavaScript
   interest: Camping, Hiking, Photography
+  github-username: thucvy
   id: 13
 
 - name: Di Wu
@@ -194,17 +206,5 @@
   resume: https://drive.google.com/file/d/1s82rODoZMsGOdm2ro1tONndVExn2u_Ds/view
   programming_language: Java
   interest: Anime
+  github-username: dw2761
   id: 14
-
-- name: Sadiq Babalola
-  img: sadiq.png
-  location: Nigeria
-  university: University Of Lagos
-  email: babalolasadiq@gmail.com
-  twitter: https://twitter.com/sadiiq__
-  github: https://github.com/Sadiq-b
-  linkedin: https://www.linkedin.com/in/sadiq-babalola-60b63618b/
-  resume: https://docs.google.com/document/d/1gz4PvtjLmuTSwk3lFgdgtmpUQlIWuRjq
-  programming_language: Python, JavaScript
-  interest: Football, Music
-  id: 15
