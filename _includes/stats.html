@@ -29,7 +29,7 @@
           for(let i=0; i<data.length; i++){
             
             const item = data[i];
-            const PRsbyFellow = value1.filter((pr) => pr.user.login==item.github_username);
+            const PRsbyFellow = value1.filter((pr) => pr.user.login==item.github_username && pr.merged_at != null);
             const PRsbyFellowOpened = value2.filter((pr) => pr.user.login==item.github_username);
             const commitsbyFellow = value3.filter((commit)=>commit.author.login == item.github_username);
             
@@ -86,7 +86,7 @@
       <tr>
         <th scope="col" class="pl-3">S.No.</th>
         <th scope="col">Fellow</th>
-        <th scope="col"><span class="open">Closed</span> PRs</th>
+        <th scope="col"><span class="open">Merged</span> PRs</th>
         <th scope="col" class="open">Open PRs</th>
         <th scope="col" class="open">Commits</th>
       </tr>
