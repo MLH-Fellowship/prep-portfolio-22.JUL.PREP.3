@@ -6,15 +6,15 @@
 }
 
 [data-theme="dark"] {
-  --background-color: #121212;
-  --text-color: #fff;
-  --background-color-card: black;
-  --banner-new: #133667;
+    --background-color: #423F3E;
+    --text-color: #fff;
+    --background-color-card: #2B2B2B;
+    --banner-new: #133667;
 }
 
 .nav-bar {
   width: 100%;
-  background-color: #133667;
+  background-color: var(--banner-new);
   font-family: "Poppins", serif;
   font-weight: 700 !important;
   padding-top: 10px;
@@ -100,7 +100,7 @@
 
 .scrolling-active {
   position: fixed;
-  background-color: #133667e4;
+  background-color: var(--banner-new);
 }
 
 .scrolling-active .nav-content {
