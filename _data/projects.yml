@@ -8,6 +8,7 @@
     - MongoDB
     - Fastify
   page-name: liuba-project
+
 - project-name: Stack Info
   brief-description: An application that exposes devs to tech stack of companies
   live-site: https://stackinfo.me
@@ -19,16 +20,18 @@
     - MongoDB
     - Redis
   page-name: Shehab-Adel-project
+
 - project-name: Tracker
-  author-name: Chidera
   brief-description: An tool that helps devs keep track of their job applications
   github-url: https://github.com/codewarsfx/Appwrite-Hackathon
+  author-name: Chidera
   technologies:
     - React
     - Appwrite
     - Javascript
     - WebApis
   page-name: chidera-project
+
 - project-name: Shatranj
   brief-description: A multiplayer Chess Gaming platform.
   github-url: https://github.com/himanshu-thakur-7/chess_game_flutter
@@ -39,6 +42,7 @@
     - Firebase
     - Socket.io
   page-name: Himanshu-Thakur-project
+
 - project-name: MovieNix
   brief-description: A decentralised movie streaming platform built on Hedera Network
   github-url: https://github.com/saswatsam786/movieNix
@@ -51,5 +55,13 @@
     - Hedera SDK
   page-name: Saswat-project
 
-
-
+- project-name: WaffleSwap
+  brief-description: A decentralised exchange built on Ethereum Blockchain
+  github-url: https://github.com/somadisingh/waffleswap-v2
+  author-name: Somaditya
+  technologies:
+    - NextJS
+    - Tailwind CSS
+    - Solidity
+    - Ganache Suite
+  page-name: Somaditya-project
