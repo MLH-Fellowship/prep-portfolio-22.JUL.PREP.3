@@ -29,7 +29,7 @@
           for(let i=0; i<data.length; i++){
             
             const item = data[i];
-            const PRsbyFellow = value1.filter((pr) => pr.user.login==item.github_username);
+            const PRsbyFellow = value1.filter((pr) => pr.user.login==item.github_username && pr.merged_at != null);
             const PRsbyFellowOpened = value2.filter((pr) => pr.user.login==item.github_username);
             const commitsbyFellow = value3.filter((commit)=>commit.author.login == item.github_username);
             
@@ -80,7 +80,7 @@
 
 <!-- Layout -->
 <div class="leaderboard">
-  <h2 class="pb-md-4 pb-2">Leaderboard</h2>
+  <h2 class="pb-md-4 pb-2 leaderboard-title">Leaderboard</h2>
   <table class="table">
     <thead class="head-blue">
       <tr>
