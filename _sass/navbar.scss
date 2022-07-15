@@ -6,10 +6,10 @@
 }
 
 [data-theme="dark"] {
-    --background-color: #423F3E;
-    --text-color: #fff;
-    --background-color-card: #2B2B2B;
-    --banner-new: #133667;
+  --background-color: #423f3e;
+  --text-color: #fff;
+  --background-color-card: #2b2b2b;
+  --banner-new: #133667;
 }
 
 .nav-bar {
@@ -101,6 +101,7 @@
 .scrolling-active {
   position: fixed;
   background-color: var(--banner-new);
+  z-index: 10000;
 }
 
 .scrolling-active .nav-content {
