@@ -1,20 +1,20 @@
 :root {
-    --background-color: #f5f5f9;
-    --text-color: #000;
-    --background-color-card: white;
-    --banner-new: #1d539f;
+  --background-color: #f5f5f9;
+  --text-color: #000;
+  --background-color-card: white;
+  --banner-new: #1d539f;
 }
 
 [data-theme="dark"] {
-    --background-color: #121212;
+    --background-color: #423F3E;
     --text-color: #fff;
-    --background-color-card: black;
+    --background-color-card: #2B2B2B;
     --banner-new: #133667;
 }
 
 .nav-bar {
   width: 100%;
-  background-color: #133667;
+  background-color: var(--banner-new);
   font-family: "Poppins", serif;
   font-weight: 700 !important;
   padding-top: 10px;
@@ -52,21 +52,25 @@
   position: relative;
 }
 
-.nav-link::after{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform .5s ease;
+.nav-link::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
 }
 
-.nav-link:hover::after{
-    transform: scaleX(1);
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-link:hover {
+  color: rgb(222, 166, 62);
 }
 
 .nav-logo {
@@ -79,6 +83,13 @@
   width: 200px;
 }
 
+.theme-btn {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  padding: 1rem 2rem;
+}
+
 // .nav-content nav {
 //   display: flex;
 //   width: 100%;
@@ -89,10 +100,10 @@
 
 .scrolling-active {
   position: fixed;
-  background-color: #133667e4;
+  background-color: var(--banner-new);
 }
 
-.scrolling-active .nav-content{
-    flex-direction: row;
-    justify-content: start;
+.scrolling-active .nav-content {
+  flex-direction: row;
+  justify-content: start;
 }

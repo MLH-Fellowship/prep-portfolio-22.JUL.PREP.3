@@ -1,22 +1,55 @@
-- project-name: Natours
-  brief-description: Natours is a tour booking  application that help people travel around
-  live-site: https://github.com/
-  project-screenshot: ./ass
-  author-img: https://github.com/
+- project-name: Greedy Gorilla - Budget Tracker
+  brief-description: An application that helps users track their expenses.
+  github-url: https://github.com/LiubovRukhlina/Budget-Tracker
+  author-name: Liuba
+  technologies:
+    - JavaScript
+    - React
+    - MongoDB
+    - Fastify
+  page-name: liuba-project
+- project-name: Stack Info
+  brief-description: An application that exposes devs to tech stack of companies
+  live-site: https://stackinfo.me
+  author-name: Shehab
   technologies:
     - Nodejs
-    - Angularjs
+    - Express.js
     - Reactjs
-    - Bootstrap
-  page-name: project
-- project-name: Natours
-  brief-description: Natours is a tour booking  application that help people travel around
-  live-site: https://github.com/
-  project-screenshot: ./ass
-  author-img: https://github.com/
+    - MongoDB
+    - Redis
+  page-name: Shehab-Adel-project
+- project-name: Tracker
+  author-name: Chidera
+  brief-description: An tool that helps devs keep track of their job applications
+  github-url: https://github.com/codewarsfx/Appwrite-Hackathon
   technologies:
+    - React
+    - Appwrite
+    - Javascript
+    - WebApis
+  page-name: chidera-project
+- project-name: Shatranj
+  brief-description: A multiplayer Chess Gaming platform.
+  github-url: https://github.com/himanshu-thakur-7/chess_game_flutter
+  author-name: Himanshu
+  technologies:
+    - Flutter
     - Nodejs
-    - Angularjs
-    - Reactjs
-    - Bootstrap
-  page-name: project
+    - Firebase
+    - Socket.io
+  page-name: Himanshu-Thakur-project
+- project-name: MovieNix
+  brief-description: A decentralised movie streaming platform built on Hedera Network
+  github-url: https://github.com/saswatsam786/movieNix
+  live-site: https://movienix.netlify.app/
+  author-name: Saswat
+  technologies:
+    - ReactJS
+    - Firebase
+    - NodeJS
+    - Hedera SDK
+  page-name: Saswat-project
+
+
+
