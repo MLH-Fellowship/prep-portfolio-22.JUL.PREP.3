@@ -70,7 +70,7 @@
     - MongoDB
     - ExpressJs
   page-name: Di-project
-  - project-name: Readable Brute Force
+- project-name: Readable Brute Force
   brief-description: Allows users to browse safely & avoid wesbites containing NSFW words.
   github-url: https://github.com/ASLManasa/Readable_Brute_Force
   author-name: Manasa
@@ -80,7 +80,7 @@
     - Flask
     - ChakraUI
   page-name: Manasa-project
-  - project-name: Plycard
+- project-name: Plycard
   brief-description: A website where user can post question on any topic and other users can answer them.
   github-url: https://github.com/SanjaySinghRajpoot/plyCard
   live-site: https://plycard.herokuapp.com/
