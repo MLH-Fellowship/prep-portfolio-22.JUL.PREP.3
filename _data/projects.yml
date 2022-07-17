@@ -102,15 +102,15 @@
     - Flask
   page-name: Indira-project
 - project-name: Covid-19 tracker
-  brief-description: An e-commerce webapp for female-owned businesses
-  github-url: https://github.com/indywip/EntreprenHER
+  brief-description: An web app for tracking Covid19 cases
+  github-url: https://github.com/sadiq-b/covid-19-Tracker
+  live-site: https://covid-19trackerwebapp.netlify.app/
   author-name: Sadiq 
   technologies:
-    - HTML
-    - CSS
-    - Python
-    - Flask
-  page-name: Indira-project
+    - React
+    - Axios
+    - Chart.js
+  page-name: Sadiq-project
 
 
 
