@@ -72,6 +72,7 @@ h2 {
     transition: all 0.2s linear;
 }
 
+
 .card {
     display: flex;
     flex-direction: row;
@@ -114,6 +115,13 @@ a {
         color: var(--text-color);
         transition: all 0.2s linear;
     }
+}
+
+.container {
+  p {
+    transition: all 0.2s linear;
+  }
+
 }
 
 .socialmedia {
