@@ -91,6 +91,27 @@
     - Redux
     - Axios Backend
   page-name: Sanjay-project
+- project-name: EntreprenHER
+  brief-description: An e-commerce webapp for female-owned businesses
+  github-url: https://github.com/indywip/EntreprenHER
+  author-name: Indira
+  technologies:
+    - HTML
+    - CSS
+    - Python
+    - Flask
+  page-name: Indira-project
+- project-name: Covid-19 tracker
+  brief-description: An e-commerce webapp for female-owned businesses
+  github-url: https://github.com/indywip/EntreprenHER
+  author-name: Sadiq 
+  technologies:
+    - HTML
+    - CSS
+    - Python
+    - Flask
+  page-name: Indira-project
+
 
 
 
