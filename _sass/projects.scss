@@ -54,7 +54,7 @@ h2,p{
     border-radius: 15px;
     margin-top: 30px;
     box-shadow: 1px 1px 24px rgba(0,0,0,0.1);
-    transition: all .2s ease; 
+    transition: all 0.2s ease; 
     position: relative;
 
     &:hover{
@@ -98,7 +98,7 @@ h1{
     justify-content: center;
     z-index: 50;
     opacity: 0;
-    transition:top 0.3s ease-in,opacity 1s ease;
+    transition:top 0.2s ease-in,opacity 1s ease;
 
 }
 
@@ -133,6 +133,7 @@ h1{
 .content-main-heading{
     font-size: 20px;
     color: var(--text-color);
+    transition: all 0.2s ease;
     font-weight:800;
     font-family: 'Open Sans', sans-serif;
     margin: 0;

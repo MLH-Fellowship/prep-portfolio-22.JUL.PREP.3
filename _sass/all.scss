@@ -53,7 +53,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin-bottom:50px;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 [data-theme="dark"] {
@@ -69,7 +69,7 @@ h2 {
     font-weight: 700;
     text-align: center;
     color: var(--text-color);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .card {
@@ -79,16 +79,16 @@ h2 {
     margin: 20px 30px;
     background-color : var(--background-color-card);
     color: var(--text-color);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
     border-radius: .375rem;
     padding: 1.5em;
     font-size: 1.2em;
-    transition: background 0.3s linear;
+    transition: background 0.2s linear;
 }
 
 a {
     color: var(--text-color);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .info {
@@ -112,7 +112,7 @@ a {
     .dates {
         font-size: small;
         color: var(--text-color);
-        transition: all 0.3s linear;
+        transition: all 0.2s linear;
     }
 }
 
@@ -160,7 +160,7 @@ a {
   width: 50px;
   cursor: pointer;
   transform: scale(1.25);
-  transition: background 0.3s linear;
+  transition: background 0.2s linear;
 }
 
 .ball {
@@ -171,7 +171,7 @@ a {
   left: 2px;
   height: 22px;
   width: 22px;
-  transition: transform 0.3s linear;
+  transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .label .ball {

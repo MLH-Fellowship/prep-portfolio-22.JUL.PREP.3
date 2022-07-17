@@ -26,14 +26,14 @@ body {
     width: auto!important; 
     overflow-x: hidden!important;
     font-family: "Open Sans", serif;
-    transition: background 0.3s linear;
+    transition: background 0.2s linear;
 }
 
 .banner {
     padding: 20px 0px 50px 0px;
     height: 150px;
     background-color: var(--banner-new);
-    transition: background 0.3s linear;
+    transition: background 0.2s linear;
 }
 
 .banner .logo {
@@ -47,7 +47,7 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 700;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page {
@@ -59,7 +59,7 @@ body {
     font-weight: 800 !important;
     color: var(--text-color);
     margin-bottom: 0.7em;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page h2 {
@@ -67,7 +67,7 @@ body {
     font-weight: 800 !important;
     color: var(--text-color);
     margin-bottom: 0.5em;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page h3 {
@@ -75,35 +75,35 @@ body {
     text-align: left !important;
     color: var(--text-color);
     font-size: 1.3rem;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page h4 {
     font-weight: 600 !important;
     text-align: center !important;
     color: var(--text-color);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page p {
     color: var(--text-color);
     font-weight: 500;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page td {
     color: var(--text-color);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page th {
     color: var(--text-color);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page li {
     color: var(--text-color);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .page a {
@@ -123,7 +123,7 @@ hr {
     padding: 1px;
     margin-top: 1em !important;
     margin-bottom: 1em !important;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 @media screen and (max-width: 768px) {
@@ -144,7 +144,7 @@ hr {
         color: var(--text-color);
         font-size: 30px;
         font-weight: 700;
-        transition: all 0.3s linear;
+        transition: all 0.2s linear;
     }
 
     .page h1 {
