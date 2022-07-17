@@ -93,6 +93,9 @@ a {
 }
 
 .info {
+  color: var(--text-color);
+  transition: all 0.2s linear;
+
   p {
     margin-top: 5px;
     margin: 0px;
@@ -109,12 +112,6 @@ a {
     font-size: medium;
     font-weight: 400;
   }
-
-    .dates {
-        font-size: small;
-        color: var(--text-color);
-        transition: all 0.2s linear;
-    }
 }
 
 .container {
