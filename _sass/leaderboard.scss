@@ -15,6 +15,7 @@
     table {
       padding-left: 40px;
       box-shadow: 0px 2px 6px 0px #aac;
+      color: var(--text-color);
       a:hover,
       a:focus,
       a:visited,
@@ -24,11 +25,11 @@
         
       }
       .head-blue {
-        background-color: #1d579f;
-        color:  #FFFFFF;;
+        background-color: var(--banner-new);
+        color:  #FFFFFF;
       }
       tr:nth-child(2n) {
-        background-color: rgb(228, 237, 247);
+        background-color: var(--table-2n);
       }
       .leaderboardName {
         cursor: pointer;
