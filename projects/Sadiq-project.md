@@ -9,7 +9,7 @@ To provide real time covid-19 information to the public during the pandemic.
 
 ## What it does
 
-A fully functional app web app with provisions for covid-19 cases, deaths and recovered patients across 100 countries
+To provide real time covid-19 information to the public during the pandemic.
 
 ## How I built it
 

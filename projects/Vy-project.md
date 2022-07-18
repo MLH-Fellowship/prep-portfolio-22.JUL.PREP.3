@@ -5,7 +5,7 @@ layout: page
 
 ## Inspiration
 
-Struggling with what to cook/eat every day.
+Struggling with what to cook/eat every day
 
 ## What it does
 

@@ -141,12 +141,12 @@ h1{
 
 .content-main-paragraph{
     font-size: 11px;
-    color: #787575;
+    color: var(--project-paragraph);
     margin: 0;
 
 
     .content-paragraph-link{
-        color: #1C4C94;
+        color: var(--project-link);
     }
 }
 
@@ -168,7 +168,7 @@ h1{
 
 
 .project-links-live{
-    color: #1C4C94;
+    color: var(--project-link);
     font-size: 14px;
 }
 
