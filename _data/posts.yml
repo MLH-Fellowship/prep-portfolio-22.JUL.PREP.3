@@ -1,14 +1,20 @@
-- title: Web Design
-  author: Person 1
-  date: July 12, 2022
+- title: Understanding of the concept of “Family”
+  author: Elmar Abdulkarimov
+  date: July 15, 2022
   page-name: post-default
+  img-link: https://miro.medium.com/max/1400/1*7_WbeUyFNy6cz6r0vylqbg.jpeg
+  tags: family philosofy
 
-- title: Development
-  author: Person 2
-  date: July 20, 2022
+- title: Case-Insensitive search in MongoDB
+  author: Shehab Adel
+  date: July 14, 2022
   page-name: post-default
+  img-link: https://shehab.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2FKaeaUITiWnc%2Fupload%2Fv1641675881254%2FRia0q-U7R.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75
+  tags: mongodb database development
 
-- title: Hosting
-  author: Person 3
-  date: July 26, 2022
+- title: Be on the wave or how not to forget what you learn
+  author: Elmar Abdulkarimov
+  date: July 13, 2022
   page-name: post-default
+  img-link: https://miro.medium.com/max/900/1*2yJIrcToOKoscNNTp9yXXw.jpeg
+  tags: development js

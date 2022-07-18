@@ -5,39 +5,39 @@
   --banner-new: #1d539f;
 }
 
-[data-theme="dark"] {
-  --background-color: #121212;
-  --text-color: #fff;
-  --background-color-card: black;
-  --banner-new: #133667;
+[data-theme='dark'] {
+    --background-color: #121212;
+    --text-color: #fff;
+    --background-color-card: black;
+    --banner-new: #133667;
 }
 
 .profile {
-  background-color: var(--banner-new) !important;
-  text-align: center;
-  margin-bottom: 50px;
-  transition: background 0.3s linear;
-  h1 {
-    font-size: 50px;
-    font-weight: 700;
-    color: white;
-  }
+    background-color: var(--banner-new) !important;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    transition: background 0.3s linear;
+    height: max-content;
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        color: white;
+    }
 
-  img {
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    object-fit: cover;
-    object-position: 100% 20%;
-  }
-
-  .profile-picture {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+    .profile-picture {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+        img {
+            flex: 1 0 75px;
+            max-width: 150px;
+            height: auto;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            display: inline;
+            padding: 20px;
+        }
+    }
 }
