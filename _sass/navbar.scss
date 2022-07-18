@@ -18,7 +18,8 @@
   font-family: "Poppins", serif;
   font-weight: 700 !important;
   padding-top: 10px;
-  z-index: 1050;
+  position: relative;
+  z-index: 1000000;
 }
 
 .nav-content {

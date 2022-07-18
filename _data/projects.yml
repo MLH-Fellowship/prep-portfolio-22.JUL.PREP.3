@@ -91,6 +91,50 @@
     - Redux
     - Axios Backend
   page-name: Sanjay-project
+- project-name: EntreprenHER
+  brief-description: An e-commerce webapp for female-owned businesses
+  github-url: https://github.com/indywip/EntreprenHER
+  author-name: Indira
+  technologies:
+    - HTML
+    - CSS
+    - Python
+    - Flask
+  page-name: Indira-project
+- project-name: Covid-19 tracker
+  brief-description: An web app for tracking Covid19 cases
+  github-url: https://github.com/sadiq-b/covid-19-Tracker
+  live-site: https://covid-19trackerwebapp.netlify.app/
+  author-name: Sadiq 
+  technologies:
+    - React
+    - Axios
+    - Chart.js
+  page-name: Sadiq-project
+- project-name: Cooking Master
+  brief-description: An app for food recipes recommendation
+  github-url: https://github.com/thucvy/food-master
+  live-site: https://food-master.pages.dev/
+  author-name: Vy  
+  technologies: 
+    - React
+    - Javascript
+    - API
+    - Bootstrap
+  page-name: Vy-project
+- project-name: Covid-19 Metrics
+  brief-description: The web application to check a list of Worldwide COVID-19 metrics (numeric values).
+  github-url: https://github.com/elmar8287/metrics
+  live-site: https://elmar-project-covid19.netlify.app/
+  author-name: Elmar  
+  technologies: 
+    - React
+    - Redux
+    - Jest
+    - Netlify
+  page-name: Elmer-project
+
+
 
 
 
