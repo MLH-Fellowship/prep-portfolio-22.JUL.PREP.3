@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<script>
+    if(localStorage.getItem("checkStatus") != null){
+        checkbox.checked = localStorage.getItem("checkStatus");
+    }
+</script>
 
 <div class="banner-blog">
     <div class="container">
@@ -15,7 +20,7 @@ layout: default
             </div>
             
             <div class="toggle-button ml-auto">
-              <input type="checkbox" class="checkbox" id="checkbox">
+              <input type="checkbox" class="checkbox" id="checkbox" autocomplete = "off">
               <label for="checkbox" class="label">
                   <i class="fa fa-moon"></i>
                   <i class="fa fa-sun"></i>

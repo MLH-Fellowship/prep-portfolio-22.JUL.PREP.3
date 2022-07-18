@@ -47,6 +47,9 @@ html,body{
   --text-color: #000;
   --background-color-card: white;
   --banner-new: #1d539f;
+  --table-2n: rgb(228, 237, 247);
+  --project-paragraph: #787575;
+  --project-link: #1C4C94;
 }
 
 body {
@@ -61,6 +64,9 @@ body {
   --text-color: #fff;
   --background-color-card: #2B2B2B;
   --banner-new: #133667;
+  --table-2n: #63676a;
+  --project-paragraph: #F9F3EE;
+  --project-link: #A2D2FF;
 }
 
 h2 {
@@ -76,7 +82,7 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px 30px;
+    margin: 5px 5px 15px 5px;
     background-color : var(--background-color-card);
     color: var(--text-color);
     transition: all 0.3s linear;
@@ -118,19 +124,8 @@ a {
 
 .socialmedia {
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  margin: 1em 0 0;
-  padding: 0;
-  justify-content: space-evenly;
-  width: 150px;
-  a {
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-  }
+  margin:0px;
+  padding:0px;
 }
 .icon {
   width: 70px;

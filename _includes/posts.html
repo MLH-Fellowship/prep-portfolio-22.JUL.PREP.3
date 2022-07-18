@@ -1,3 +1,9 @@
+<script>
+  if(localStorage.getItem("checkStatus") != null){
+      checkbox.checked = localStorage.getItem("checkStatus");
+  }
+</script>
+
 <div id="posts">
     <h2>Blog Posts</h2>
     <div class="card-container">
@@ -9,10 +15,11 @@
         {% endif %}
           <div class="card">
             <div class="info">
-              <img src="https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt.jpg" class ="img">
+              <img src={{ item.img-link}} class ="img">
               <p class="title">{{ item.title }}</p>
               <p class="location">Written by {{ item.author }}</p>
               <p class="dates">{{ item.date }}</p>
+              <p class="dates">tags: {{ item.tags }}</p>
             </div>
           </div>
         </a>
